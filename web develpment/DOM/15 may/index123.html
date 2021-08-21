@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+    <h1>Heading</h1>
+    <p>dsjvdsn fdnskjfndksv vdf</p>
+    </div>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Grapes</li>
+        <li>Tomato</li>
+    </ul>
+
+    <script>
+        // let a = 2;
+        // console.log(a + 1);  // print on console on browser
+
+        alert("Hello"); // show message in dialog box
+
+        // document => html
+        let p = document.querySelector("p"); // go in document dom and select 'p' selelctor ( if multiple 'p' tags are there, it will take first 'p' tag in tree )
+        console.log(p);
+        p.style.color = "blue"; // manupulating 'p' tag 
+
+        p.addEventListener("click",function(){
+            alert("hi");
+        });
+
+        let li = document.querySelectorAll('li'); // return list => contain all 'li' in it, in same order in which we have writter in html
+        console.log(li);
+        console.log(li[2]); // huma 3th 'li' element chahia tha, woo display kar dia
+
+    </script>
+</body>
+</html>

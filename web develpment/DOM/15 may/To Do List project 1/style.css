@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    border: 1px solid;
+    background-color: #a8a8a8;
+}
+
+.container{
+    height : 200vh;
+    width : 100vw; 
+}
+
+input{
+    height: 80px;
+    width: 500px;
+    display:block;
+    background-color: white;
+    margin:auto;  /* left aur right se center & top aur buttom se 0px*/
+    margin-top:20px;
+    font-size: 1.5rem;
+    border: none;
+    outline:none;
+}
+
+ul{
+    width: 500px;
+    height: 500px;
+    margin:auto;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    list-style: none;
+    padding-left:0;
+    text-align: center;  
+    overflow: auto;
+    background-color: rgb(255, 231, 199);
+    color: chocolate;
+}
+
+li{
+    margin-top: 10px;
+    color: palevioletred;
+}

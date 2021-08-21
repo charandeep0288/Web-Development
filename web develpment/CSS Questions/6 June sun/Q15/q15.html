@@ -1,0 +1,56 @@
+<!-- Q- Using html code below write css to create image-final  -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+
+      body{
+        margin: 0;
+        display: flex;
+        align-items: center;
+      }
+
+      .container{
+        border: 1px solid;
+        height: 30vh;
+        width: 100vw;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .avatars{
+        height: 10rem;
+        width: 10rem;
+        border: 1px solid;
+
+        /* to shift  each avatar div to -2rem left */
+        margin-left: -2rem;
+
+        border-radius: 50%;
+        background-color: red;
+
+        border: 5px solid white;
+      }
+    </style>
+
+  </head>
+  <body>
+      <div class="container">
+      <div class="avatars"></div>
+      <div class="avatars"></div>
+      <div class="avatars"></div>
+      <div class="avatars last-avatar">+2</div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Q- Create image-final by styling the following html(it should be responsive)-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  
+    <style>
+      *{
+        box-sizing:border-box;
+      }
+
+      body{
+        margin: 0;
+      }
+
+      .box{
+        margin:auto;
+        margin-top: calc( ( 100vh - 20rem ) / 2 );
+        width: 20rem;
+        height: 20rem;
+        background-color: black;
+      }
+
+      .leg1,
+      .leg2{
+        height: 80%;
+        width: 0.7rem;
+        background-color: red;
+        border: 1px solid;
+        /* margin-top: 2rem; */
+      }
+      </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="leg1"></div>
+      <div class="leg2"></div>
+    </div>
+  </body>
+</html>

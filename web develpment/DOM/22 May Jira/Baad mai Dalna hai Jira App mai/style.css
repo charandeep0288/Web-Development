@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* Orange line on browser => margin */
+    /* Green line on browser => Padding */
+    /* by default body take 8 pixel margin, but we donot want it */
+    margin: 0;
+}
+
+div {
+    /* border: 1px solid; */
+}
+
+.container {
+    height: 100vh; /* visible area ka 100% height*/
+    width: 100vw; /* visible area ka 100% width*/
+}
+
+.navbar {
+    background-color: #333333;
+    height: 9%; /* container class vala div ka 10% */
+    display: flex;
+}
+
+.grid {
+    background-color: #f2f2f2;
+    /* min-height matla agara grid ka andar ka data exced kar jai 91% se, to grid ka size badra doo  */
+    min-height: 91%; /* min-height display: flex; kaa sath use karta hai, container class vala div ka 90% */
+    /* overflow: auto; */    /* alternate of min-height: ; */
+    display: flex;
+    flex-wrap: wrap; /* jitni jaga hia ticket add karna ki utha add akr doo fir agli ticket next line pai lai aoo */ 
+    justify-content: space-evenly;
+    padding: 1.5rem;
+}
+
+.filter-container,
+.action-container {
+    height: 75%;
+    /*this height is of 75% of navbar whose height is 10% of container */
+    width: 7rem;
+    border-radius: 4px; /* to round the corners of div's, higher the value more they are round */
+    margin-left: 4.5rem;
+    background-color: #444444;
+    margin-top: 1.25vh;
+}
+
+.filter-container {
+    width: 13rem;
+    display: flex;
+}
+
+.action-container {
+    display: flex; /* iska parent mai flex use kia hia thabi hum ismai flex use kar paa raha hai*/
+    width: 5rem;
+}
+
+.filter {
+    /* border: 1px solid red; */
+    width: 25%;  /* 25% width of fiter-container */
+    height: 100%;
+}
+
+.filter:hover {
+    background-color: #393939;
+}
+
+/* sara filter color button select kar raha hai*/
+.filter div {
+    margin: auto; /* horizontally center aya gaa bas*/
+    margin-top: 1.46vh;
+    border-radius: 2px;
+    height: 50%;
+    width: 50%;
+    /* background-color: yellow; */
+}
+
+.pink-color-btn, .pink {
+    background-color: #d595aa;
+}
+
+.blue-color-btn, .blue {
+    background-color: #5ecdde;
+}
+
+.green-color-btn, .green {
+    background-color: #91e6c7;
+}
+
+.black-color-btn, .black {
+    background-color: black;
+}
+
+.add,
+.delete {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; /* change color of text  */
+    text-align: center;
+    width: 50%; /* 50% */ 
+    height: 100%;
+}
+
+.delete {
+    font-size: 1.5rem;
+    padding-top: 0.6rem;
+}
+
+.add {
+    font-size: 2.4rem;
+}
+
+.add:hover, 
+.delete:hover{
+    background-color: #393939; /* jab mouse hover kara gaa tho yaa color aya gaa*/
+}
+
+/* delete state kaa color chage hi raha gaa jab uspai click kia tho */
+.delete-state{
+    background-color: #393939!important; /* forcefully yaa vala color dal dio */
+}
+
+.model-container{
+    /* border:1px solid red; */
+    box-shadow: 0px 5px 10px 5px #aaa;
+    height: 18rem;
+    width: 35rem;
+    display: flex;
+    position: fixed;
+    top: calc( (100vh - 18rem ) / 2 );
+    left: calc( (100vw - 35rem ) / 2 );
+}
+
+
+.writting-area-container{
+    background-color: whitesmoke;
+    /* border: 1px dotted; */
+    height: 100%;
+    width: 70%;
+    padding: 1.5rem;
+    outline: none; /* mouse jab enter kar raha hai iss div mai tab utline nahi chahia */
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+}
+
+/* place hoder dalna ka kam aa raha hai div tag mai  */
+/* .writting-area-container:empty:not(:focus):before{
+    content: attr(data-placeholder);
+} */
+
+.filter-area-container{
+    background-color: #444;
+    height: 100%;
+    width: 30%;
+    display: flex; /* by default flex ki direction row mai hoti hai*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.model-filter{
+    opacity: 0.8;
+    width:50%;
+    height: 2.5rem;
+    margin-bottom: 8px;
+}
+
+.model-filter:hover{
+    opacity: 1;
+}
+
+
+.ticket{
+    background-color: rgba(255, 255, 255, 0.815);
+    height: 10rem;
+    width: 15rem;
+    margin-bottom: 20px; /* tiket kaa bich mai space dana kaa lia */
+}
+
+.ticket-color{
+    /* background-color: red; */
+    width: 100%;
+    height: 5%;
+}
+
+.ticket-id{
+    background-color: rgb(219, 222, 224);
+    width: 100%;
+    padding: 7px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: grey;
+}
+
+.ticket-box{
+    background-color: aliceblue;
+    height: 77%;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    padding: 12px;
+}
+
+.active-modal-filter{
+    border: 5px solid red;
+    opacity: 1;
+}
+
+
+
+/* https://www.youtube.com/watch?v=DLX62G4lc44 */

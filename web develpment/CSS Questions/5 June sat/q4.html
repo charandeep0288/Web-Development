@@ -1,0 +1,48 @@
+<!-- Q- Align the given box to the centre of the screen  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        
+        /* SOLUTION 2 USing flex */
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        /* height phala likho chaha baad mai ik hi baat hai, jitni height hai screen ki utni tho loo */
+        /* height: 100vh;  */
+      }
+
+      .box {
+        background-color: orange;
+        height: 30rem;
+        width: 30rem;
+        /* SOLUTION 1  USing Margin*/
+        /* margin auto upar hi likha gaa */
+        /* margin: auto;  
+        margin-top: calc( (100vh - 30rem) / 2 ); */
+
+      }
+
+      div{
+        /* SOLUTION 3 Using position: absolute */
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        transform: translate( -50%, -50% );
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>
