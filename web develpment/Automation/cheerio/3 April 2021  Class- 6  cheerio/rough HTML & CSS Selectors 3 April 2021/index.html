@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google search engine use this meta to display which file would come first -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Web Page</title>
+    <!-- Internal CSS => can be in head and body -->
+    <style>
+        h1 {
+            color :greenyellow;
+        }
+        .redish
+        {
+            color : red;
+        }
+        .blueish{
+            color: blue;
+        }
+        #Paragraph
+        {
+            color : orangered;
+        }
+
+    </style>
+
+    <!-- External CSS & Empty tag -->
+    <link rel = "stylesheet" href = "style.css">
+
+</head>
+<body>
+    <!-- heading & Inline CSS -->
+
+    <h1 style = "color: aqua;">Heading 1</h1>
+
+    <h2 class = "redish" >Heading 2</h2>
+    <h3 class = "redish" >Heading 3</h3>
+
+    <!--h4 is using two two class properties =>(blueish & redish) Blueish will override redish  -->
+    <!-- because blueish is defined after redish in style tag in head tag -->
+    <h4 class = "redish blueish" >Heading 4</h4>
+    <h5 class = "redish" >Heading 5</h5>
+    <h6 class = "redish" >Heading 6</h6>
+
+    <hr>
+
+    <!-- SPAN TAG & Inline CSS -->
+    <span style= "color : red; Font-size : 20px; Font-weight: 20px;">HTML TUTORIALS</span>
+    
+    <!-- Paragraph -->
+    <p id = "Paragraph">
+        My name is                 charandeep Singh. I am currently pursuing B. tech from Guru Tegh Bahadur Institute of Technology.
+        And I am currently working on my software skills to get a job in well reputed company.
+
+    </p>
+
+    <!-- Unorder List -->
+    <div class = >
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Grapes</li>
+            <li>Watermelon</li>
+        </ul>
+    </div>
+
+    <!-- Ordered list -->
+    <ol>
+        <li>Good</li>
+        <li>Fair</li>
+        <li>Bad</li>
+    </ol>
+
+    <!--  Anchor tag -->
+    <a style = "color : powderblue" href = 'https://www.google.com' > <h2>Go to google</h2></a> 
+    
+    <!-- TO OPEN LINK IN NEW WINDOW -->
+    <a href = 'https://www.google.com' target="_blank"> <h2>Go to google in new tab</h2></a>
+
+
+    <!-- Container => to group multiple tags together -->
+    <div>
+        <h2>MY SELF</h2>
+        <p>Charadeep Singh</p>
+        <p>Love to watch netfilx</p>  
+    </div>
+
+    <nav></nav>
+
+    <header></header>
+
+    <aside></aside>
+
+    <footer></footer>
+
+</body>
+</html>

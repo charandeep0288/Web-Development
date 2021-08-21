@@ -1,0 +1,866 @@
+[
+    {
+        "Project Name ": "Android",
+        "Project URL ": "https://github.com/topics/android",
+        "gitRepos": [
+            {
+                "Repo Name ": "flutter",
+                "Repo Link ": "https://github.com/flutter/flutter",
+                "issues": [
+                    {
+                        "Isssue Name ": "Exception: null. The flutter tool cannot access the file or directory.       Please ensure that the SDK and/or project is installed in a location that has read/write permissions for the current       user.",
+                        "Issue URL": "https://github.com/flutter/flutter/issues/80193"
+                    },
+                    {
+                        "Isssue Name ": "(with 1-line reproducible sample included) potentially affected 1.3 billion people: cannot delete any text using TextField with GlobalKey",
+                        "Issue URL": "https://github.com/flutter/flutter/issues/80192"
+                    },
+                    {
+                        "Isssue Name ": "MissingPluginException (MissingPluginException(No implementation found for method getAll on channel plugins.flutter.io/shared_preferences))",
+                        "Issue URL": "https://github.com/flutter/flutter/issues/80191"
+                    },
+                    {
+                        "Isssue Name ": "Flutter build web is not working",
+                        "Issue URL": "https://github.com/flutter/flutter/issues/80189"
+                    },
+                    {
+                        "Isssue Name ": "Flutter project keeps showing \"loading...\" in AndroidStudio4.1.3",
+                        "Issue URL": "https://github.com/flutter/flutter/issues/80188"
+                    },
+                    {
+                        "Isssue Name ": "Flutter accessibility: there is no radioButton on Semantics",
+                        "Issue URL": "https://github.com/flutter/flutter/issues/80182"
+                    },
+                    {
+                        "Isssue Name ": "Flutter Windows: cannot build Windows App error MSB8066",
+                        "Issue URL": "https://github.com/flutter/flutter/issues/80179"
+                    },
+                    {
+                        "Isssue Name ": "CHANGE DOMAIN",
+                        "Issue URL": "https://github.com/flutter/flutter/issues/80178"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "free-programming-books-zh_CN",
+                "Repo Link ": "https://github.com/justjavac/free-programming-books-zh_CN",
+                "issues": [
+                    {
+                        "Isssue Name ": "docs: add go源码剖析",
+                        "Issue URL": "https://github.com/justjavac/free-programming-books-zh_CN/pull/833"
+                    },
+                    {
+                        "Isssue Name ": "Update README.md",
+                        "Issue URL": "https://github.com/justjavac/free-programming-books-zh_CN/pull/832"
+                    },
+                    {
+                        "Isssue Name ": "Python自然语言处理中文版链接失效",
+                        "Issue URL": "https://github.com/justjavac/free-programming-books-zh_CN/pull/831"
+                    },
+                    {
+                        "Isssue Name ": "Mysql链接失效",
+                        "Issue URL": "https://github.com/justjavac/free-programming-books-zh_CN/pull/830"
+                    },
+                    {
+                        "Isssue Name ": "修正《haskell趣学指南》链接",
+                        "Issue URL": "https://github.com/justjavac/free-programming-books-zh_CN/pull/829"
+                    },
+                    {
+                        "Isssue Name ": "Create bundle.yml",
+                        "Issue URL": "https://github.com/justjavac/free-programming-books-zh_CN/pull/828"
+                    },
+                    {
+                        "Isssue Name ": "链接失效",
+                        "Issue URL": "https://github.com/justjavac/free-programming-books-zh_CN/pull/827"
+                    },
+                    {
+                        "Isssue Name ": "Python 标准库 中文版链接失效;添加新链接",
+                        "Issue URL": "https://github.com/justjavac/free-programming-books-zh_CN/pull/826"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "scrcpy",
+                "Repo Link ": "https://github.com/Genymobile/scrcpy",
+                "issues": [
+                    {
+                        "Isssue Name ": "Play sound on android",
+                        "Issue URL": "https://github.com/Genymobile/scrcpy/issues/2244"
+                    },
+                    {
+                        "Isssue Name ": "Screen updates stop update randomly (also in recorded file) on Redmi 9T",
+                        "Issue URL": "https://github.com/Genymobile/scrcpy/issues/2243"
+                    },
+                    {
+                        "Isssue Name ": "Creating virtual displays (FLAG_PRESENTATION?).",
+                        "Issue URL": "https://github.com/Genymobile/scrcpy/issues/2242"
+                    },
+                    {
+                        "Isssue Name ": "Hide window titlebar",
+                        "Issue URL": "https://github.com/Genymobile/scrcpy/issues/2240"
+                    },
+                    {
+                        "Isssue Name ": "Trilinear filtering doesn't get enabled when using opengles 3.2",
+                        "Issue URL": "https://github.com/Genymobile/scrcpy/issues/2239"
+                    },
+                    {
+                        "Isssue Name ": "Is It possible to stream in HTML?",
+                        "Issue URL": "https://github.com/Genymobile/scrcpy/issues/2238"
+                    },
+                    {
+                        "Isssue Name ": "Start maximized",
+                        "Issue URL": "https://github.com/Genymobile/scrcpy/issues/2237"
+                    },
+                    {
+                        "Isssue Name ": "ERROR: \"adb push\" returned with value 1 PRECISO DE SOLUÇÃO!",
+                        "Issue URL": "https://github.com/Genymobile/scrcpy/issues/2235"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "Awesome-Hacking",
+                "Repo Link ": "https://github.com/Hack-with-Github/Awesome-Hacking",
+                "issues": [
+                    {
+                        "Isssue Name ": "Added The Art of Hacking Series",
+                        "Issue URL": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/121"
+                    },
+                    {
+                        "Isssue Name ": "Added Resourceify",
+                        "Issue URL": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/120"
+                    },
+                    {
+                        "Isssue Name ": "change",
+                        "Issue URL": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/119"
+                    },
+                    {
+                        "Isssue Name ": "add checklist security",
+                        "Issue URL": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/118"
+                    },
+                    {
+                        "Isssue Name ": "Adds awesome vulhub repo to the list",
+                        "Issue URL": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/115"
+                    },
+                    {
+                        "Isssue Name ": "Fixed Typo",
+                        "Issue URL": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/113"
+                    },
+                    {
+                        "Isssue Name ": "Fixed Typo",
+                        "Issue URL": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/112"
+                    },
+                    {
+                        "Isssue Name ": "Add GTFOBins",
+                        "Issue URL": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/58"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "material-design-icons",
+                "Repo Link ": "https://github.com/google/material-design-icons",
+                "issues": [
+                    {
+                        "Isssue Name ": "Two tone rounded icons",
+                        "Issue URL": "https://github.com/google/material-design-icons/issues/1164"
+                    },
+                    {
+                        "Isssue Name ": "Can't utilize any of the font files except the Regular version because of file type",
+                        "Issue URL": "https://github.com/google/material-design-icons/issues/1163"
+                    },
+                    {
+                        "Isssue Name ": "Request: Icon sprites",
+                        "Issue URL": "https://github.com/google/material-design-icons/issues/1161"
+                    },
+                    {
+                        "Isssue Name ": "Request: stop_circle_filled and stop_circle_outline",
+                        "Issue URL": "https://github.com/google/material-design-icons/issues/1160"
+                    },
+                    {
+                        "Isssue Name ": "Missing language icons",
+                        "Issue URL": "https://github.com/google/material-design-icons/issues/1159"
+                    },
+                    {
+                        "Isssue Name ": "Missing basic icon: squiggly underline",
+                        "Issue URL": "https://github.com/google/material-design-icons/issues/1158"
+                    },
+                    {
+                        "Isssue Name ": "Request: Camping / Tent icon",
+                        "Issue URL": "https://github.com/google/material-design-icons/issues/1157"
+                    },
+                    {
+                        "Isssue Name ": "Please add \"reset\" icon",
+                        "Issue URL": "https://github.com/google/material-design-icons/issues/1156"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "awesome-android-ui",
+                "Repo Link ": "https://github.com/wasabeef/awesome-android-ui",
+                "issues": []
+            },
+            {
+                "Repo Name ": "okhttp",
+                "Repo Link ": "https://github.com/square/okhttp",
+                "issues": [
+                    {
+                        "Isssue Name ": "OSGi metadata needs tweaking",
+                        "Issue URL": "https://github.com/square/okhttp/issues/6618"
+                    },
+                    {
+                        "Isssue Name ": "Connect Timeout - Thread.Interrupt() doesn't cancel call.execute() when we're stuck at the connection state",
+                        "Issue URL": "https://github.com/square/okhttp/issues/6611"
+                    },
+                    {
+                        "Isssue Name ": "Structured Field Values for HTTP",
+                        "Issue URL": "https://github.com/square/okhttp/issues/6587"
+                    },
+                    {
+                        "Isssue Name ": "Websocket connection active even after calling close and activity being destroyed",
+                        "Issue URL": "https://github.com/square/okhttp/issues/6584"
+                    },
+                    {
+                        "Isssue Name ": "Should we use explicit API mode",
+                        "Issue URL": "https://github.com/square/okhttp/issues/6575"
+                    },
+                    {
+                        "Isssue Name ": "H2 issue with unknown settings parameter causes malformed requests",
+                        "Issue URL": "https://github.com/square/okhttp/issues/6572"
+                    },
+                    {
+                        "Isssue Name ": "Read timeout - Connection is not closed on post request",
+                        "Issue URL": "https://github.com/square/okhttp/issues/6571"
+                    },
+                    {
+                        "Isssue Name ": "[Proposal] Improve OkHttp Documentation",
+                        "Issue URL": "https://github.com/square/okhttp/issues/6565"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "architecture-samples",
+                "Repo Link ": "https://github.com/android/architecture-samples",
+                "issues": [
+                    {
+                        "Isssue Name ": "Learn android architecture",
+                        "Issue URL": "https://github.com/android/architecture-samples/issues/778"
+                    },
+                    {
+                        "Isssue Name ": "[master] Animation of refresh is not smooth",
+                        "Issue URL": "https://github.com/android/architecture-samples/issues/775"
+                    },
+                    {
+                        "Isssue Name ": "Can't build/debug - \"Failed to apply plugin [id 'com.android.internal.application']\"",
+                        "Issue URL": "https://github.com/android/architecture-samples/issues/773"
+                    },
+                    {
+                        "Isssue Name ": "[dev-hilt] How to test negative/error flow in Fragment",
+                        "Issue URL": "https://github.com/android/architecture-samples/issues/768"
+                    },
+                    {
+                        "Isssue Name ": "[dev-hilt] Dispatchers.IO is singletone (Or in dependency graph)?",
+                        "Issue URL": "https://github.com/android/architecture-samples/issues/763"
+                    },
+                    {
+                        "Isssue Name ": "[dev-hilt] Example instrumentation test using navGraphViewModels, FragmentScenario and launchFragmentInHiltContainer",
+                        "Issue URL": "https://github.com/android/architecture-samples/issues/759"
+                    },
+                    {
+                        "Isssue Name ": "While running a project ,there is a problem with gradle.",
+                        "Issue URL": "https://github.com/android/architecture-samples/issues/756"
+                    },
+                    {
+                        "Isssue Name ": "[Question] Should Use Case access another use case or Should use case access multiple repositories?",
+                        "Issue URL": "https://github.com/android/architecture-samples/issues/754"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Project Name ": "Git",
+        "Project URL ": "https://github.com/topics/git",
+        "gitRepos": [
+            {
+                "Repo Name ": "gitignore",
+                "Repo Link ": "https://github.com/github/gitignore",
+                "issues": [
+                    {
+                        "Isssue Name ": "Update Android.gitignore",
+                        "Issue URL": "https://github.com/github/gitignore/pull/3697"
+                    },
+                    {
+                        "Isssue Name ": "Add: venv3x glob into Python.gitignore",
+                        "Issue URL": "https://github.com/github/gitignore/pull/3696"
+                    },
+                    {
+                        "Isssue Name ": "Create .gitignore",
+                        "Issue URL": "https://github.com/github/gitignore/pull/3695"
+                    },
+                    {
+                        "Isssue Name ": "Excluded project & user specific files",
+                        "Issue URL": "https://github.com/github/gitignore/pull/3694"
+                    },
+                    {
+                        "Isssue Name ": "Adding visual studio code config folder to the visual studio gitignore",
+                        "Issue URL": "https://github.com/github/gitignore/pull/3693"
+                    },
+                    {
+                        "Isssue Name ": "Update Unity.gitignore",
+                        "Issue URL": "https://github.com/github/gitignore/pull/3692"
+                    },
+                    {
+                        "Isssue Name ": "update env files ignore only local",
+                        "Issue URL": "https://github.com/github/gitignore/pull/3691"
+                    },
+                    {
+                        "Isssue Name ": "Create GitHubPages.gitignore",
+                        "Issue URL": "https://github.com/github/gitignore/pull/3690"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "gogs",
+                "Repo Link ": "https://github.com/gogs/gogs",
+                "issues": [
+                    {
+                        "Isssue Name ": "Markdown: code blocks and list render incorrectly",
+                        "Issue URL": "https://github.com/gogs/gogs/issues/6535"
+                    },
+                    {
+                        "Isssue Name ": "Security Vulnerability",
+                        "Issue URL": "https://github.com/gogs/gogs/issues/6534"
+                    },
+                    {
+                        "Isssue Name ": "Dependabot can't resolve your Go dependency files",
+                        "Issue URL": "https://github.com/gogs/gogs/issues/6533"
+                    },
+                    {
+                        "Isssue Name ": "Huge memory ",
+                        "Issue URL": "https://github.com/gogs/gogs/issues/6532"
+                    },
+                    {
+                        "Isssue Name ": "The authentication source selected is not associated with the user.",
+                        "Issue URL": "https://github.com/gogs/gogs/issues/6531"
+                    },
+                    {
+                        "Isssue Name ": "Profile README.md",
+                        "Issue URL": "https://github.com/gogs/gogs/issues/6528"
+                    },
+                    {
+                        "Isssue Name ": "\"git cat-file: could not get object info\" in webui",
+                        "Issue URL": "https://github.com/gogs/gogs/issues/6525"
+                    },
+                    {
+                        "Isssue Name ": "Panic when drone.io doing refresh repository list",
+                        "Issue URL": "https://github.com/gogs/gogs/issues/6524"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "bat",
+                "Repo Link ": "https://github.com/sharkdp/bat",
+                "issues": [
+                    {
+                        "Isssue Name ": "syslogs",
+                        "Issue URL": "https://github.com/sharkdp/bat/issues/1605"
+                    },
+                    {
+                        "Isssue Name ": "[Feature] One-line binary install improvement",
+                        "Issue URL": "https://github.com/sharkdp/bat/issues/1604"
+                    },
+                    {
+                        "Isssue Name ": "Add Solidity and Vyper syntax ",
+                        "Issue URL": "https://github.com/sharkdp/bat/issues/1602"
+                    },
+                    {
+                        "Isssue Name ": "Allow generic 'first line match' across all syntaxes",
+                        "Issue URL": "https://github.com/sharkdp/bat/issues/1600"
+                    },
+                    {
+                        "Isssue Name ": "Hide file contents after exiting pager",
+                        "Issue URL": "https://github.com/sharkdp/bat/issues/1599"
+                    },
+                    {
+                        "Isssue Name ": "How to read files with page breaks",
+                        "Issue URL": "https://github.com/sharkdp/bat/issues/1594"
+                    },
+                    {
+                        "Isssue Name ": "Is it possible to disable trimming?",
+                        "Issue URL": "https://github.com/sharkdp/bat/issues/1593"
+                    },
+                    {
+                        "Isssue Name ": "Language formatting",
+                        "Issue URL": "https://github.com/sharkdp/bat/issues/1592"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "gitea",
+                "Repo Link ": "https://github.com/go-gitea/gitea",
+                "issues": [
+                    {
+                        "Isssue Name ": "[BUG] PDF File View broken if CDN subdomain used + private repo",
+                        "Issue URL": "https://github.com/go-gitea/gitea/issues/15390"
+                    },
+                    {
+                        "Isssue Name ": "Idea: Dropdown for notifications",
+                        "Issue URL": "https://github.com/go-gitea/gitea/issues/15389"
+                    },
+                    {
+                        "Isssue Name ": "User Team/Org removeal redirect to Dashboard",
+                        "Issue URL": "https://github.com/go-gitea/gitea/issues/15388"
+                    },
+                    {
+                        "Isssue Name ": "Issuelist icon too high",
+                        "Issue URL": "https://github.com/go-gitea/gitea/issues/15386"
+                    },
+                    {
+                        "Isssue Name ": "[Proposal] add api access to git notes",
+                        "Issue URL": "https://github.com/go-gitea/gitea/issues/15373"
+                    },
+                    {
+                        "Isssue Name ": "[BUG] REPO_INDEXER won't index mirrored repository after sync",
+                        "Issue URL": "https://github.com/go-gitea/gitea/issues/15367"
+                    },
+                    {
+                        "Isssue Name ": "Deleting Oauth application via api with nonexistent id causes internal server error",
+                        "Issue URL": "https://github.com/go-gitea/gitea/issues/15356"
+                    },
+                    {
+                        "Isssue Name ": "PUT on /notifications endpoint with invalid date causes internal server error",
+                        "Issue URL": "https://github.com/go-gitea/gitea/issues/15346"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "husky",
+                "Repo Link ": "https://github.com/typicode/husky",
+                "issues": [
+                    {
+                        "Isssue Name ": "Husky v6 - conflict between git hooks and husky hooks?",
+                        "Issue URL": "https://github.com/typicode/husky/issues/943"
+                    },
+                    {
+                        "Isssue Name ": "Husky enforces sh? ",
+                        "Issue URL": "https://github.com/typicode/husky/issues/942"
+                    },
+                    {
+                        "Isssue Name ": "Yarn 2 doesn't support prepublishOnly",
+                        "Issue URL": "https://github.com/typicode/husky/issues/941"
+                    },
+                    {
+                        "Isssue Name ": "post-checkout error in CI",
+                        "Issue URL": "https://github.com/typicode/husky/issues/940"
+                    },
+                    {
+                        "Isssue Name ": "v6's postinstall breaks Yarn 2's \"workspaces focus\" command",
+                        "Issue URL": "https://github.com/typicode/husky/issues/939"
+                    },
+                    {
+                        "Isssue Name ": "Pre commit hooks not running in Sourcetree",
+                        "Issue URL": "https://github.com/typicode/husky/issues/938"
+                    },
+                    {
+                        "Isssue Name ": "Having to run yarn install on every branch",
+                        "Issue URL": "https://github.com/typicode/husky/issues/936"
+                    },
+                    {
+                        "Isssue Name ": "error: unknown option `hook'",
+                        "Issue URL": "https://github.com/typicode/husky/issues/935"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "cli",
+                "Repo Link ": "https://github.com/cli/cli",
+                "issues": [
+                    {
+                        "Isssue Name ": "Creating discussions for a release using the CLI",
+                        "Issue URL": "https://github.com/cli/cli/issues/3381"
+                    },
+                    {
+                        "Isssue Name ": "Want to list an org's repos that match a filter criteria",
+                        "Issue URL": "https://github.com/cli/cli/issues/3378"
+                    },
+                    {
+                        "Isssue Name ": "gh pr update (or push) command is missing",
+                        "Issue URL": "https://github.com/cli/cli/issues/3370"
+                    },
+                    {
+                        "Isssue Name ": "gh pr merge --auto returns successfully when auto merging is not enabled on a repo",
+                        "Issue URL": "https://github.com/cli/cli/issues/3367"
+                    },
+                    {
+                        "Isssue Name ": "Getting error at authetication",
+                        "Issue URL": "https://github.com/cli/cli/issues/3363"
+                    },
+                    {
+                        "Isssue Name ": "pr reopen fails when passing a branch as arg",
+                        "Issue URL": "https://github.com/cli/cli/issues/3350"
+                    },
+                    {
+                        "Isssue Name ": "Actions: cannot access issue that was added to an org project",
+                        "Issue URL": "https://github.com/cli/cli/issues/3346"
+                    },
+                    {
+                        "Isssue Name ": "Add a flag (--involves) to gh issue to complete the filter",
+                        "Issue URL": "https://github.com/cli/cli/issues/3345"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "hub",
+                "Repo Link ": "https://github.com/github/hub",
+                "issues": [
+                    {
+                        "Isssue Name ": "hub create in an organization without a visibility flag should use the org's default",
+                        "Issue URL": "https://github.com/github/hub/issues/2727"
+                    },
+                    {
+                        "Isssue Name ": "Documentation request for personal access tokens",
+                        "Issue URL": "https://github.com/github/hub/issues/2726"
+                    },
+                    {
+                        "Isssue Name ": "Support changing release state to Latest with hub release edit",
+                        "Issue URL": "https://github.com/github/hub/issues/2725"
+                    },
+                    {
+                        "Isssue Name ": "Version displays incorrectly of hub in terminal",
+                        "Issue URL": "https://github.com/github/hub/issues/2716"
+                    },
+                    {
+                        "Isssue Name ": "hub sync isn't fetching origin of forked repo",
+                        "Issue URL": "https://github.com/github/hub/issues/2714"
+                    },
+                    {
+                        "Isssue Name ": "Please release for linux/ppc64le too",
+                        "Issue URL": "https://github.com/github/hub/issues/2708"
+                    },
+                    {
+                        "Isssue Name ": "Switch Ubuntu instructions to just use the Debian instructions",
+                        "Issue URL": "https://github.com/github/hub/issues/2695"
+                    },
+                    {
+                        "Isssue Name ": "Auto-merge PRs created by hub",
+                        "Issue URL": "https://github.com/github/hub/issues/2692"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "lazygit",
+                "Repo Link ": "https://github.com/jesseduffield/lazygit",
+                "issues": [
+                    {
+                        "Isssue Name ": "Crash upon Startup with ZSH shortcut: syscall.Errno operation not supported by device",
+                        "Issue URL": "https://github.com/jesseduffield/lazygit/issues/1233"
+                    },
+                    {
+                        "Isssue Name ": "No remote appears in the directories created with worktree",
+                        "Issue URL": "https://github.com/jesseduffield/lazygit/issues/1224"
+                    },
+                    {
+                        "Isssue Name ": "Crashed when rewording a commit",
+                        "Issue URL": "https://github.com/jesseduffield/lazygit/issues/1223"
+                    },
+                    {
+                        "Isssue Name ": "Please provide feedback for lazygit!",
+                        "Issue URL": "https://github.com/jesseduffield/lazygit/issues/1220"
+                    },
+                    {
+                        "Isssue Name ": "Which key like interface",
+                        "Issue URL": "https://github.com/jesseduffield/lazygit/issues/1219"
+                    },
+                    {
+                        "Isssue Name ": "Panic when paste string containing newlines into new branch name",
+                        "Issue URL": "https://github.com/jesseduffield/lazygit/issues/1202"
+                    },
+                    {
+                        "Isssue Name ": "related tool you might like (and can maybe take inspiration from)",
+                        "Issue URL": "https://github.com/jesseduffield/lazygit/issues/1195"
+                    },
+                    {
+                        "Isssue Name ": "“Stage all” doesn’t respect status.showUntrackedFiles no",
+                        "Issue URL": "https://github.com/jesseduffield/lazygit/issues/1191"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Project Name ": "Vagrant",
+        "Project URL ": "https://github.com/topics/vagrant",
+        "gitRepos": [
+            {
+                "Repo Name ": "vagrant",
+                "Repo Link ": "https://github.com/hashicorp/vagrant",
+                "issues": [
+                    {
+                        "Isssue Name ": "Vagrant error: incompatible character encodings: Windows-1250 and CP852 (Encoding::CompatibilityError)",
+                        "Issue URL": "https://github.com/hashicorp/vagrant/issues/12290"
+                    },
+                    {
+                        "Isssue Name ": "documentation: vagrant security/production considerations",
+                        "Issue URL": "https://github.com/hashicorp/vagrant/issues/12288"
+                    },
+                    {
+                        "Isssue Name ": "'vagrant up' | Disk type and size unit",
+                        "Issue URL": "https://github.com/hashicorp/vagrant/issues/12287"
+                    },
+                    {
+                        "Isssue Name ": "Archlinux fails to bootstrap Salt due to missing python2-futures package",
+                        "Issue URL": "https://github.com/hashicorp/vagrant/issues/12286"
+                    },
+                    {
+                        "Isssue Name ": "MacOS - Vagrant encountered an unexpected communications error with the Vagrant VMware Utility driver",
+                        "Issue URL": "https://github.com/hashicorp/vagrant/issues/12285"
+                    },
+                    {
+                        "Isssue Name ": "SSH | Ed25519 required as secure key-pair",
+                        "Issue URL": "https://github.com/hashicorp/vagrant/issues/12284"
+                    },
+                    {
+                        "Isssue Name ": "Setting EnhancedSessionModeType in HyperV to any value crashes on Windows Server 2012R2",
+                        "Issue URL": "https://github.com/hashicorp/vagrant/issues/12279"
+                    },
+                    {
+                        "Isssue Name ": "SMB mount broken since 2.2.15",
+                        "Issue URL": "https://github.com/hashicorp/vagrant/issues/12277"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "VVV",
+                "Repo Link ": "https://github.com/Varying-Vagrant-Vagrants/VVV",
+                "issues": [
+                    {
+                        "Isssue Name ": "Homebrew formula",
+                        "Issue URL": "https://github.com/Varying-Vagrant-Vagrants/VVV/issues/2436"
+                    },
+                    {
+                        "Isssue Name ": "Install script",
+                        "Issue URL": "https://github.com/Varying-Vagrant-Vagrants/VVV/issues/2435"
+                    },
+                    {
+                        "Isssue Name ": "Dashboard Rebuild",
+                        "Issue URL": "https://github.com/Varying-Vagrant-Vagrants/VVV/issues/2434"
+                    },
+                    {
+                        "Isssue Name ": "Turn off box update check",
+                        "Issue URL": "https://github.com/Varying-Vagrant-Vagrants/VVV/issues/2433"
+                    },
+                    {
+                        "Isssue Name ": "Shell agnostic code",
+                        "Issue URL": "https://github.com/Varying-Vagrant-Vagrants/VVV/issues/2428"
+                    },
+                    {
+                        "Isssue Name ": "Plugin installation prompt runs on all commands",
+                        "Issue URL": "https://github.com/Varying-Vagrant-Vagrants/VVV/issues/2419"
+                    },
+                    {
+                        "Isssue Name ": "Command/function to turn off file logging",
+                        "Issue URL": "https://github.com/Varying-Vagrant-Vagrants/VVV/issues/2416"
+                    },
+                    {
+                        "Isssue Name ": "'vagrant up' hanging at 'SSH auth method: private key'",
+                        "Issue URL": "https://github.com/Varying-Vagrant-Vagrants/VVV/issues/2414"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "ansible-for-devops",
+                "Repo Link ": "https://github.com/geerlingguy/ansible-for-devops",
+                "issues": [
+                    {
+                        "Isssue Name ": "Anyone try to run molecule as docker container",
+                        "Issue URL": "https://github.com/geerlingguy/ansible-for-devops/issues/390"
+                    },
+                    {
+                        "Isssue Name ": "Failed to connect to the host via ssh: vagrant@192.168.60.5: Permission denied (publickey,password).\",",
+                        "Issue URL": "https://github.com/geerlingguy/ansible-for-devops/issues/386"
+                    },
+                    {
+                        "Isssue Name ": "CentOS 7/8",
+                        "Issue URL": "https://github.com/geerlingguy/ansible-for-devops/issues/384"
+                    },
+                    {
+                        "Isssue Name ": "solr virtualbox Connection Refused",
+                        "Issue URL": "https://github.com/geerlingguy/ansible-for-devops/issues/381"
+                    },
+                    {
+                        "Isssue Name ": "Chapter 9 load balancer ubuntu 20.04",
+                        "Issue URL": "https://github.com/geerlingguy/ansible-for-devops/issues/380"
+                    },
+                    {
+                        "Isssue Name ": "I'm unable to open my Node.js application from my local machine",
+                        "Issue URL": "https://github.com/geerlingguy/ansible-for-devops/issues/378"
+                    },
+                    {
+                        "Isssue Name ": "LAMP infrastructure AWS",
+                        "Issue URL": "https://github.com/geerlingguy/ansible-for-devops/issues/377"
+                    },
+                    {
+                        "Isssue Name ": "Add note about VAGRANT_PREFERRED_PROVIDERS for first vagrant up",
+                        "Issue URL": "https://github.com/geerlingguy/ansible-for-devops/issues/376"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "bento",
+                "Repo Link ": "https://github.com/chef/bento",
+                "issues": [
+                    {
+                        "Isssue Name ": "centos8 box can't compile VBox Guest Additions",
+                        "Issue URL": "https://github.com/chef/bento/issues/1345"
+                    },
+                    {
+                        "Isssue Name ": "Apple M1 support",
+                        "Issue URL": "https://github.com/chef/bento/issues/1344"
+                    },
+                    {
+                        "Isssue Name ": "CentOS Stream build failing",
+                        "Issue URL": "https://github.com/chef/bento/issues/1341"
+                    },
+                    {
+                        "Isssue Name ": "Problem installing SLES 15 SP1",
+                        "Issue URL": "https://github.com/chef/bento/issues/1340"
+                    },
+                    {
+                        "Isssue Name ": "bento/freebsd-11.x-i386 vagrant boxes for virtualbox do not successfully boot",
+                        "Issue URL": "https://github.com/chef/bento/issues/1338"
+                    },
+                    {
+                        "Isssue Name ": "Configure paravirtprovider to the appropriate value for each OS",
+                        "Issue URL": "https://github.com/chef/bento/issues/1336"
+                    },
+                    {
+                        "Isssue Name ": "Unable to mounted virtualbox shared folders to bento/amazonlinux-2",
+                        "Issue URL": "https://github.com/chef/bento/issues/1335"
+                    },
+                    {
+                        "Isssue Name ": "Feature Request: Produce aarch64 boxes",
+                        "Issue URL": "https://github.com/chef/bento/issues/1334"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "DetectionLab",
+                "Repo Link ": "https://github.com/clong/DetectionLab",
+                "issues": [
+                    {
+                        "Isssue Name ": "Velociraptor does not privide .msi package with its 5.8 release (breaks install-velociraptor.ps1)",
+                        "Issue URL": "https://github.com/clong/DetectionLab/issues/636"
+                    },
+                    {
+                        "Isssue Name ": "Error: timeout - last error: unknown error Post \"http://52.53.127.45:5985/wsman\": dial tcp 52.53.127.45:5985: i/o timeout",
+                        "Issue URL": "https://github.com/clong/DetectionLab/issues/635"
+                    },
+                    {
+                        "Isssue Name ": "[Azure] Install Exchange Prereqs Ansible code doesn't work",
+                        "Issue URL": "https://github.com/clong/DetectionLab/issues/633"
+                    },
+                    {
+                        "Isssue Name ": "Velociraptor Dashboard \"authentication handshake failed\"",
+                        "Issue URL": "https://github.com/clong/DetectionLab/issues/624"
+                    },
+                    {
+                        "Isssue Name ": "Ansible: This script contains malicious content",
+                        "Issue URL": "https://github.com/clong/DetectionLab/issues/623"
+                    },
+                    {
+                        "Isssue Name ": "Deploying detection lab on an external hard drive",
+                        "Issue URL": "https://github.com/clong/DetectionLab/issues/620"
+                    },
+                    {
+                        "Isssue Name ": "EC2 Subnet and Public IP Error",
+                        "Issue URL": "https://github.com/clong/DetectionLab/issues/618"
+                    },
+                    {
+                        "Isssue Name ": "Networks with custom subnet/mask values are not supported",
+                        "Issue URL": "https://github.com/clong/DetectionLab/issues/602"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "redis-windows",
+                "Repo Link ": "https://github.com/ServiceStack/redis-windows",
+                "issues": []
+            },
+            {
+                "Repo Name ": "trellis",
+                "Repo Link ": "https://github.com/roots/trellis",
+                "issues": [
+                    {
+                        "Isssue Name ": "PHP CLI memory limit setting",
+                        "Issue URL": "https://github.com/roots/trellis/issues/1277"
+                    },
+                    {
+                        "Isssue Name ": "Python 3 Incompatibility?",
+                        "Issue URL": "https://github.com/roots/trellis/issues/1273"
+                    },
+                    {
+                        "Isssue Name ": "SSH Key Pair for Web User",
+                        "Issue URL": "https://github.com/roots/trellis/issues/1259"
+                    },
+                    {
+                        "Isssue Name ": "Trellis and Apple Silicon",
+                        "Issue URL": "https://github.com/roots/trellis/issues/1253"
+                    },
+                    {
+                        "Isssue Name ": "Feature request: Perform composer platform check during deploy",
+                        "Issue URL": "https://github.com/roots/trellis/issues/1244"
+                    },
+                    {
+                        "Isssue Name ": "Dev env PHP version issue",
+                        "Issue URL": "https://github.com/roots/trellis/issues/1233"
+                    },
+                    {
+                        "Isssue Name ": "Second NFS share from OSX fails if the shared folder in on Secondary Volume",
+                        "Issue URL": "https://github.com/roots/trellis/issues/1210"
+                    },
+                    {
+                        "Isssue Name ": "Check if cron not running already when triggering another cron",
+                        "Issue URL": "https://github.com/roots/trellis/issues/1178"
+                    }
+                ]
+            },
+            {
+                "Repo Name ": "shutit",
+                "Repo Link ": "https://github.com/ianmiell/shutit",
+                "issues": [
+                    {
+                        "Isssue Name ": "send_and_return_status bug",
+                        "Issue URL": "https://github.com/ianmiell/shutit/issues/323"
+                    },
+                    {
+                        "Isssue Name ": "long timeout problems?",
+                        "Issue URL": "https://github.com/ianmiell/shutit/issues/322"
+                    },
+                    {
+                        "Isssue Name ": "Apply / make sure these are applied to shutit run",
+                        "Issue URL": "https://github.com/ianmiell/shutit/issues/321"
+                    },
+                    {
+                        "Isssue Name ": " shutitfile barfs on ENSURE_LINE",
+                        "Issue URL": "https://github.com/ianmiell/shutit/issues/320"
+                    },
+                    {
+                        "Isssue Name ": "When not echoing, write update to terminal with no newline",
+                        "Issue URL": "https://github.com/ianmiell/shutit/issues/318"
+                    },
+                    {
+                        "Isssue Name ": "Command line args should be 'inherited' by create_session",
+                        "Issue URL": "https://github.com/ianmiell/shutit/issues/317"
+                    },
+                    {
+                        "Isssue Name ": "get_distro_info bug?",
+                        "Issue URL": "https://github.com/ianmiell/shutit/issues/314"
+                    },
+                    {
+                        "Isssue Name ": "Only ask for sudo password if needed",
+                        "Issue URL": "https://github.com/ianmiell/shutit/issues/283"
+                    }
+                ]
+            }
+        ]
+    }
+]
