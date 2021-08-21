@@ -1,0 +1,12 @@
+/* presets */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.list-item{
+    display: flex;
+}
