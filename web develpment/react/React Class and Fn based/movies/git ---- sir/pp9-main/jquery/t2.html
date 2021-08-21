@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .some-class{
+            height: 3rem;
+            border: 1px solid;
+            background-color: rgb(168, 47, 47);
+            color: white;
+            text-align: center;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"
+  ></script>
+
+
+  <script>
+      $("li").attr("data-click",0)
+
+      $("li").click(function(e){
+          let nOfClicks = Number($(this).attr("data-click"))
+          nOfClicks++;
+          $(this).attr("data-click",nOfClicks)
+          if(nOfClicks==1){
+            $(this).addClass("some-class")
+          }else if(nOfClicks == 2){
+            $(this).removeClass("some-class")
+
+          }else if(nOfClicks == 3){
+            $(this).remove()
+          }
+      })
+  </script>
+
+</body>
+</html>
