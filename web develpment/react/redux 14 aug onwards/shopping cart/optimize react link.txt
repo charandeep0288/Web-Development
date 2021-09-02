@@ -1,0 +1,5 @@
+Article on medium
+https://medium.com/wesionary-team/16-performance-optimization-techniques-react-765ac0f405cb
+
+
+https://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux
