@@ -1,6 +1,5 @@
-<!-- status in  -->
+<!-- status Code of Browser  -->
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
-
 
 
 

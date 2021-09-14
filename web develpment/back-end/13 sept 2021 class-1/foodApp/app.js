@@ -31,6 +31,8 @@ let obj = {
     'name' : 'Charandeep Singh',
 };
 
+// req -> request 
+// res -> response
 app.get('/user', (req, res) => {
     console.log('user');
     res.json(obj);
