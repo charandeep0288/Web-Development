@@ -13,30 +13,99 @@ app.listen('5000', function(){
 // .use() fn -> middle ware function 
 app.use(express.json()); // to recognize incoming request object as a JSON object
 
+// app.use((req, res, next) => {
+//     // do some work
+//     console.log('I am a middleware');
+//     next(); // matlab mara kam hoo gya app.use() kaa bahar laa aya gaa & next fn ko control dai gaa
+// });
+
 // static -> matlab humari static hai files,,, 'public' -> path specify kiya hai
 app.use(express.static('public'));
 
 const userRouter = express.Router(); // user kaa router bana dia
 const authRouter = express.Router(); // router banya hai authentication kaa lia
+const forgetPasswordRouter = express.Router();
+
+app.use((req, res, next) => {
+    // do some work
+    console.log('I am a middleware 2nd time');
+    next(); // matlab mara kam hoo gya app.use() kaa bahar laa aya gaa & next fn ko control dai gaa
+});
 
 app.use('/user', userRouter); // '/user' base route hai
-app.use('/auth', authRouter);
+app.use('/auth', authRouter); // '/auth' base route hai
 
 // mounting in express
 userRouter
-.route('/') // user pai route daa raha hai
+.route('/') // user pai route daa raha hai -> get post patch delete
 .get(getUser)
 .post(createUser)
 .patch(updateUser)
 .delete(deleteUser);
 
-userRouter 
-.route('/:id')
-.get(getUserById);
+// app.use((req, res, next) => {
+//     // do some work
+//     console.log('I am a middleware 3rd time');
+//     next(); // matlab mara kam hoo gya app.use() kaa bahar laa aya gaa & next fn ko control dai gaa
+// });
+
+// userRouter 
+// .route('/:id')
+// .get(getUserById);
 
 authRouter
-.route('/signup') // 
+.route('/signup') // '/auth' kaa baad '/signup' pai route kar raha hai
 .post(signupUser);
+
+authRouter
+.route('/forgetPassword')
+.get(getforgetpassword)
+.post(postforgetpassword, validateEmail); // postforgetpassword() -> kaa baad validateEmail() fn chala gaa
+
+// redirects -> new request bhejta hai puri file dubara chalti
+app.get('/user-all', (req, res) => { // '/user-all' 
+    res.redirect('/user');
+});
+
+// 404 page
+// aur yaa hum ikdam last mai lika gaa file kaa 
+// It is middle ware fn hai yaa & har baar chala gaa (for 404 page)
+app.use((req, res) => { // yaa app.use() -> har bar run kara gaa
+    res.sendFile('public/404.html', {root:__dirname});
+});
+
+
+// https://expressjs.com/en/guide/using-middleware.html
+
+function getforgetpassword(req, res){
+    res.sendFile('./public/forgetPassword.html', {root:__dirname});
+}
+
+function postforgetpassword(req, res, next){
+    let data = req.body;
+    console.log('data', data);
+
+    // check if email id in correct - validate
+    next();
+
+    // ckeck if user exists in db
+    // res.json({
+    //     message: "data received",
+    //     data: data.email,
+    // });
+};
+
+function validateEmail(req, res){
+    console.log('in validateEmail function');
+    console.log(req.body); // 
+
+    // hw to check if email is correct or note -> @, .
+    // indexOf
+    res.json({
+        message: "data received",
+        data: req.body,
+    });
+}
 
 function signupUser(req, res){
     // let userDetails = req.body; // req.body -> mai hai data user kaa
@@ -60,14 +129,15 @@ let user = []; // array
 // CRUD - create read update delete
 
 // read
-app.get('/', (req, res) => {
-   res.send('Home Page'); 
-});
+// app.get('/', (req, res) => { // yaa vali agar .get ki command hata dai gaa tho -> error aya gii -> iss case mai https://localhost:5000/
+//    res.send('Home Page'); 
+// });
 
 // app.get('/user', getUser);
 
 function getUser(req, res){
-    res.json(user);
+    console.log('getUser called');
+    res.json(user); // agar yaa response ki statment hata dai gaa tho hanging state mai chala jai gaa yaa 
 }
 
 
@@ -113,4 +183,3 @@ function getUserById(req, res) {
     // res.send(req.params.id);
     res.json(req.params.id); // yaa joo bhi data milta JSON format mai convert kar daata hai ans response bhejta hai
 }
-
