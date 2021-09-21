@@ -92,7 +92,7 @@ authRouter
 function setCreatedAt(req, res, next) {
     let obj = req.body;
     // key ka arr -> uska length
-    let length = Object.key(obj).length;
+    let length = Object.keys(obj).length;
     if (length == 0) { // matlab check kar rah hai ki data exisit karta hai ki nahi
         // 400 status code -> Bad Request
         return res.status(400).json({ message: "cannot create user if req.body is empty" }); // chaining 
@@ -103,7 +103,7 @@ function setCreatedAt(req, res, next) {
 }
 
 const userModel = require('./models/userModel'); // joo bhi file require karta hai hum woo humari puri complie hoo kai run hoo kai fir aya gi yaha pai
-function signupUser(req, res) {
+async function signupUser(req, res) {
     // let userDetails = req.body; // req.body -> mai hai data user kaa
     // let name = userDetails.name;
     // let email = userDetails.email;

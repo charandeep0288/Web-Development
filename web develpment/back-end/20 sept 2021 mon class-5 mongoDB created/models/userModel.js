@@ -1,10 +1,11 @@
+// npm i email-validatior mongoose
 
 // linked database
 const mongoose = require('mongoose'); // node js mai require kiya mongoose koo
 
 const {db_link} = require('../secrets.js'); // destructuring
 
-const validator = require("email-validator");
+const validator = require("email-validator"); // npm i email-validatior
 
 mongoose.connect(db_link).then(function(db){ // fn argument mai db milta hai
     console.log('db connected'); // identification mark hai ik tara sa ki db connect hoo gya hai
@@ -15,7 +16,7 @@ mongoose.connect(db_link).then(function(db){ // fn argument mai db milta hai
 });
 
 
-// created user Schema
+// creating user Schema
 const userSchema = new mongoose.Schema({
     name: {
         type: String, // datatype kya hoga name kaa -> String type hoga
@@ -55,14 +56,14 @@ userSchema.pre('save', function(){ // hum chata hai ki pre -> data save karna se
    this. confirmPassword = undefined; // confirmPassword -> db mai save nahi hoga humara 
 });
 
-// created user Model
+// creating user Model
 const userModel = mongoose.model('userModel', userSchema);
 
 module.exports = userModel; // exporting user model to use in server.js
 
-// group of documents is called a collection
+// group of DOCUMENTS is called a COLLECTION
 
-// ife -> imideiate function enwoke
+// Immediately Invoked Function Expressions (IIFE)
 // (async function createUser(){
 //     // creating user document
     // let user = {
@@ -76,4 +77,4 @@ module.exports = userModel; // exporting user model to use in server.js
 //     // userModel.create() -> promise based function
 //     let userObj = await userModel.create(user); // user bheja gaa argument mai 
 //     console.log(userObj);
-// })(); // called this function here -> ife
+// })(); // called this function here -> Immediately Invoked Function Expressions (IIFE)
