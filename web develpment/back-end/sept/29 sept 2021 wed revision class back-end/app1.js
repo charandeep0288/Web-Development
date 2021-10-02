@@ -100,6 +100,7 @@ function bodyChecker(req, res, next){
     }
 }
 
+
 function getUsers(req, res){
     res.json({message: content});
 }
