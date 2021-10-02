@@ -55,21 +55,45 @@ app.use(express.json());
 // localhost/user/10 -> post
 let content = JSON.parse(fs.readFileSync("./data.json"));
 
-// const userRouter = express.Router();
+const userRouter = express.Router();
 const authRouter = express.Router();
-// app.use('/user', userRouter);
+
+app.use('/user', userRouter);
 app.use('/auth', authRouter);
 
-// userRouter
-//     .route('/')
-//     // localhost/user -> get
-//     .get(getUsers)
-//     // localhost/user -> post
-//     .post(bodyChecker, createUser); 
+userRouter
+    .route('/')
+    // localhost/user -> get
+    .get(protectRoute, getUsers)
+    // localhost/user -> post
+    // .post(bodyChecker, createUser); 
 
 
 authRouter.route('/signup')
     .post(bodyChecker, signupUser);
+
+authRouter.route('/login')
+    .post(bodyChecker, loginUser);
+
+function getUsers(req, res){
+    res.status(200).json({
+        "message": content
+    });
+};
+
+function protectRoute(req, res, next){
+    console.log("reached body checker");
+
+    //jwt -> verify everytime that if you are brining the token to get your response
+    let isallowed = true; 
+    // isallowed -> true -> user aga jaa sakta hai next middleware fn pai i.e, getUser()
+    //  isallowed -> false -> user aga nahi jaa sakta hai next middleware fn pai i.e, getUser()
+    if(isallowed) {
+        next();
+    } else {
+        res.send("kindly login to access this resource");
+    };
+};
 
 function bodyChecker(req, res, next) {
     console.log("reached body checker");
@@ -107,6 +131,28 @@ function signupUser(req, res) {
     };
 }
 
+function loginUser(req, res) {
+    let { email, password } = req.body;
+    let obj = content.find((obj) => {
+        return obj.email == email
+    });
+
+    if(!obj) {
+        return res.status(404).json({
+            message: "User not found",
+        });
+    }
+    if(obj.password == password){
+        res.status(200).json({
+            message: "user logged In",
+        });
+    } else {
+        res.status(422).json({
+            message: "password dosen't match",
+        });
+    };
+};
+
 // userRouter  
 //     .route("/:id")
 //     // localhost/user/10 -> post
@@ -131,11 +177,6 @@ function createUser(req, res) {
         message: content,
     });
 };
-
-
-function getUsers(req, res) {
-    res.json({ message: content });
-}
 
 
 
