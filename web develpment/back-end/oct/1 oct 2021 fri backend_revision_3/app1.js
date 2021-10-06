@@ -87,7 +87,7 @@ function protectRoute(req, res, next) {
 
     // cookie-parser
     console.log("93", req.cookies);
-    jwt.verify();
+    // jwt.verify();
 
     let decryptedToken = jwt.verify(req.cookies.JWT, JWT_SECRET);
     console.log("97", decryptedToken);
