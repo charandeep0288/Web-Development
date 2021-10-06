@@ -31,7 +31,7 @@ let userSchema = new mongoose.Schema({
         type: String,
         required: true,
         // unique -> ka matlab duplicate email se user nahi bana sakta
-        // unique: true,
+        unique: true,
 
         validate: function() {
             // third party validation library
@@ -55,6 +55,15 @@ let userSchema = new mongoose.Schema({
         type: String,
     }
 });
+
+// hook
+userSchema.pre('save', function(next) {
+    // do stuff
+    this.confirmPassword = undefined; // undefined karna se yaa data same nahi hoga database mai
+
+    // encryt password
+    next();
+})
 
 // model
 let userModel = mongoose.model("UserModel", userSchema);
