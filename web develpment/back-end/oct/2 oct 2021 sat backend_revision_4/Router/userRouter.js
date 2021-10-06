@@ -1,10 +1,11 @@
 // dependency ------------------------------------
 // express
 const express = require("express");
-const userModel = require("./model/userModel");
+const userModel = require("../model/userModel");
 
 // router ---------------------------------------
 const userRouter = express.Router();
+const { protectRoute } = require("./utilFns");
 
 // routes -----------------------------------------
 userRouter
@@ -17,7 +18,7 @@ userRouter
 
 
 // functions ----------------------------------------
-function getUsers(req, res) {
+async function getUsers(req, res) {
   try {
     let user = await userModel.find();
     res.status(200).json({

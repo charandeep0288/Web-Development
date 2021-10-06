@@ -5,6 +5,9 @@ const express = require("express");
 const fs = require("fs");
 const path = require("path");
 const cookieParser = require("cookie-parser");
+const userRouter = require("./Router/userRouter");
+const authRouter = require("./Router/authRouter")
+
 
 // Server // route -> request -> response/file/..
 const app = express();
@@ -55,6 +58,8 @@ app.use(cookieParser());
 // read data storage
 // localhost/user/10 -> post
 // let content = JSON.parse(fs.readFileSync("./data.json"));
+
+
 
 app.use("/api/user", userRouter);
 app.use("/api/auth", authRouter);
