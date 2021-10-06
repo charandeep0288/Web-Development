@@ -7,6 +7,7 @@ const path = require("path");
 const jwt = require("jsonwebtoken");
 const { JWT_SECRET } = require("./secrets");
 const cookieParser = require("cookie-parser");
+const userModel = require("./model/userModel");
 
 // Server // route -> request -> response/file/..
 const app = express();
@@ -61,8 +62,8 @@ let content = JSON.parse(fs.readFileSync("./data.json"));
 const userRouter = express.Router();
 const authRouter = express.Router();
 
-app.use("/user", userRouter);
-app.use("/auth", authRouter);
+app.use("/api/user", userRouter);
+app.use("/api/auth", authRouter);
 
 userRouter
   .route("/")
@@ -103,9 +104,10 @@ function protectRoute(req, res, next) {
       res.send("kindly login to access this resource");
     }
   } catch (err) {
-      res.status(200).json({
-          message: err.message,
-      });
+    console.log(err);
+    res.status(200).json({
+      message: err.message,
+    });
   }
 }
 
@@ -121,26 +123,19 @@ function bodyChecker(req, res, next) {
   }
 }
 
-function signupUser(req, res) {
-  let { name, email, password, confirmPassword } = req.body;
-  console.log("res.body", req.body);
-
-  if (password === confirmPassword) {
-    let newUser = { name, email, password };
-
-    // entery put
-    content.push(newUser);
-    console.log("content arr", content);
-
-    //save in datastorage
-    fs.writeFileSync("data.json", JSON.stringify(content));
+async function signupUser(req, res) {
+  try {
+    let newUser = await userModel.create(req.body);
 
     res.status(201).json({
-      createUser: newUser,
+      message: "user created sucessfully",
+      user: newUser,
     });
-  } else {
-    res.status(422).json({
-      message: "password and confirm password do not match",
+    
+  } catch (err) {
+    console.log("signup User error: ", err);
+    res.status(500).json({
+      message: err.message,
     });
   }
 }
