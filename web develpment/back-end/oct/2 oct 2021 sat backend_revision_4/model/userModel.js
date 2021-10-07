@@ -53,8 +53,11 @@ let userSchema = new mongoose.Schema({
     },
     createAt: {
         type: String,
-    }
-});
+    },
+    token: {
+        type: String,
+    },
+})
 
 // hook
 userSchema.pre('save', function(next) {
@@ -64,6 +67,13 @@ userSchema.pre('save', function(next) {
     // encryt password
     next();
 })
+
+// document method 
+userSchema.methods.resetHandler = function (password, confirmPassword) {
+    this.password = password;
+    this.confirmPassword = confirmPassword;
+    this.token = undefined;
+}
 
 // model
 let userModel = mongoose.model("UserModel", userSchema);
