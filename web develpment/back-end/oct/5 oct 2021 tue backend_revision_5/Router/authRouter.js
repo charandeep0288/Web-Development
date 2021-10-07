@@ -93,14 +93,13 @@ async function forgetPassword(req, res) {
       console.log("new User", newUser);
       // email send
       await emailSender(token, user.email);
-      
+
       res.status(200).json({
         message: "user token send to your email",
         user: newUser,
         token,
       });
-      
-      
+
     } else {
 
       res.status(404).json({
@@ -108,6 +107,7 @@ async function forgetPassword(req, res) {
       });
     }
 
+    res.status(200).send("hi")
   } catch (err) {
 
     console.log("forget User error: ", err);
@@ -133,6 +133,10 @@ async function resetPassword(req, res) {
       //   confirmPassword: confirmPassword,
       // }, {runValidators: true});
 
+      // user.password = password;
+      // user.cofirmPassword = confirmPassword;
+      // user.token = undefined;
+
       // alternate of above code
       user.resetHandler(password, confirmPassword);
       // database entry
@@ -145,6 +149,10 @@ async function resetPassword(req, res) {
         user: newUser,
         token
       })
+    } else {
+      res.status(404).json({
+        message: "user with this token not found",
+      });
     }
 
   } catch(err) {
