@@ -62,6 +62,7 @@ app.use(cookieParser());
 
 
 app.use("/api/user", userRouter);
+// app.use("/api/plan", planRouter);
 app.use("/api/auth", authRouter);
 
 app.listen(8081, function () {

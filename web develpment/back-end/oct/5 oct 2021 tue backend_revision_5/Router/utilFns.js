@@ -33,7 +33,7 @@ module.exports.protectRoute = function protectRoute(req, res, next) {
 module.exports.bodyChecker = function bodyChecker(req, res, next) {
   console.log("reached body checker");
   let isPresent = Object.keys(req.body).length;
-
+  
   console.log("ispresent", isPresent);
   if (isPresent) {
     next();

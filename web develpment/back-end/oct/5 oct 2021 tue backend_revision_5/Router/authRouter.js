@@ -86,8 +86,7 @@ async function forgetPassword(req, res) {
         .toString()
         .substring(1);
         console.log("res",token);
-      let updateRes = await userModel.updateOne({ email }, { token });
-      console.log("update",updateRes)
+      await userModel.updateOne({ email }, { token });
       // console.log("updateQuery", updateQuery);
       let newUser = await userModel.findOne({ email });
       console.log("new User", newUser);

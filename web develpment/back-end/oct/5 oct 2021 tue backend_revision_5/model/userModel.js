@@ -57,7 +57,14 @@ let userSchema = new mongoose.Schema({
     token: {
         type: String,
     },
-})
+    validUpto: String,
+    role: {
+        type: String,
+        // enum matlab yaa hi values allowed hai bas aur koi allowed nahi hai iska alawa
+        enum: ["admin", "ce", "user"],
+        default: "user"
+    }
+});
 
 // hook
 userSchema.pre('save', function(next) {
