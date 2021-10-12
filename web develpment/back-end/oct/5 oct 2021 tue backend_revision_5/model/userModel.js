@@ -76,6 +76,6 @@ userSchema.methods.resetHandler = function (password, confirmPassword) {
 }
 
 // model
-let userModel = mongoose.model("UserModel", userSchema);
+let userModel = mongoose.model("PABUserModel", userSchema);
 
 module.exports = userModel;

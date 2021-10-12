@@ -38,9 +38,10 @@ async function createUser(req, res) {
 }
 
 async function getUser(req, res) {
-  let { id } = req.user;
+  let { id } = req.params;
   try {
     let users = await userModel.findById(id);
+    console.log(users);
     res.status(200).json({
       message: users,
     });
@@ -67,18 +68,28 @@ async function getUsers(req, res) {
 }
 
 async function updateUser(req, res) {
-  let { id } = req.user;
+  let { id } = req.params;
   try {
-    let users = await userModel.findById(id);
+    // if(res.body.password || req.body.confirmPassword) {
+    //   return res.json({
+    //     message: "use forget password instead"
+    //   });
+    // }
+
+    let user = await userModel.findById(id);
+    console.log(user);
     if (user) {
-      for (let key in user) {
+      for (let key in req.body) {
         user[key] = req.body[key];
       }
 
-      await user.save();
+      // save  -> confirmPassword, password
+      await user.save({
+        validateBeforeSave: false
+      });
 
       res.status(200).json({
-        user: users,
+        user: user,
       });
 
     } else {
