@@ -32,11 +32,13 @@ const reviewSchema = new mongoose.Schema({
     user: {
         // info 
         type: mongoose.Schema.ObjectId,
-        required: [true, "Review must belong to a user"]
+        required: [true, "Review must belong to a user"],
+        ref: "PABUserModel"
     }, 
     plan: {
         type: mongoose.Schema.ObjectId,
-        required: [true, "Review must belong to a plan"]
+        required: [true, "Review must belong to a plan"],
+        ref: "PABPlanModel",
     }
 });
 
